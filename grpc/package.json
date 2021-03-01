@@ -6,8 +6,10 @@
   "scripts": {
     "start_1_server": "node 1_helloworld_server.js",
     "start_1_client": "node 1_helloworld_client.js",
-    "start_2_server": "node 2_message_server_array.js",
-    "start_2_client": "node 2_message_client_array.js"
+    "start_2_server": "node 2_message_array_server.js",
+    "start_2_client": "node 2_message_array_client.js",
+    "start_3_server": "node 3_message_submsg_server.js",
+    "start_3_client": "node 3_message_submsg_client.js"
   },
   "keywords": [],
   "author": "ddochea <ddochea0314@gmail.com>",

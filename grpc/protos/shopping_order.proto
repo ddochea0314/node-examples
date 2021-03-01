@@ -20,7 +20,8 @@ message Products {
 }
 
 message Products2 {
-    repeated Product product = 1;
+    repeated Product products = 1;
+    optional string user_name = 2;
 }
 
 message Product {
