@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package shopping;
+
+service ShoppingOrder {
+    rpc GetOrder1 (Order) returns (Products) {}
+    rpc GetOrder2 (Order) returns (Products2) {}
+}
+
+message Order {
+    required int32 order_idx = 1; // required : 반드시 있어야함.
+    optional string user_name = 2; // optional : 없어도됨.
+}
+
+message Products {
+    repeated int32 product_idx = 1;
+    repeated string product_name = 2;
+    repeated int32 price = 3;
+    optional string user_name = 4;
+}
+
+message Products2 {
+    repeated Product product = 1;
+}
+
+message Product {
+    int32 product_idx = 1;
+    string product_name = 2;
+    int32 price = 3;
+}
