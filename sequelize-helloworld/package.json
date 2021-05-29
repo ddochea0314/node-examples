@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.ts",
-    "db": "sequelize-auto -o './models' -d test -h localhost -u sa -p 1433 -x root123!@# -e mssql -l ts"
+    "start": "ts-node index.ts ",
+    "db": "sequelize-auto -o './models' -d database_development -h localhost -u sa -p 1433 -x root123!@# -e mssql -l ts"
   },
   "keywords": [],
   "author": "",
