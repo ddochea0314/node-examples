@@ -4,20 +4,23 @@
     "password": "root123!@#",
     "database": "database_development",
     "host": "localhost",
-    "dialect": "mssql"
+    "dialect": "mssql",
+    "logging": false
   },
   "test": {
     "username": "sa",
     "password": "root123!@#",
     "database": "database_test",
     "host": "localhost",
-    "dialect": "mssql"
+    "dialect": "mssql",
+    "logging": false
   },
   "production": {
     "username": "sa",
     "password": "root123!@#",
     "database": "database_production",
     "host": "localhost",
-    "dialect": "mssql"
+    "dialect": "mssql",
+    "logging": false
   }
 }
